@@ -8,10 +8,10 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter first character:");
-            int first = (int)(char.Parse(Console.ReadLine()));
-            Console.WriteLine("Please Enter second character:");
-            int second = (int)(Char.Parse(Console.ReadLine()));
+            Console.Write("Please Enter first character: ");
+            int first = Char.Parse(Console.ReadLine());
+            Console.Write("Please Enter second character: ");
+            int second = Char.Parse(Console.ReadLine());
 
             Console.WriteLine($"The difference between the 2 characters is: {Math.Abs(first - second)}");
 
